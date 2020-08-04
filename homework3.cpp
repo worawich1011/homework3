@@ -10,19 +10,21 @@ void main()
  float final;
  float totalq,total;
  
- cout<<"Enter first quiz (10) : ";
+ cout<<"============QUIZZES============="<<endl;
+ cout<<"Enter first quizz (10) : ";
  cin>>q1;
- cout<<"Enter second quiz(10) : ";
+ cout<<"Enter second quizz(10) : ";
  cin>>q2;
- cout<<"Enter thrids quiz(10) : ";
+ cout<<"Enter thrids quizz(10) : ";
  cin>>q3;
+ cout<<"============Mid-term============"<<endl;
  cout<<"Enter mid-term   (40) : " ;
  cin>>mid;
+ cout<<"=============FINAL=============="<<endl;
  cout<<"Enter final      (50) : " ;
  cin>>final;
  totalq = (q1+q2+q3)/3;
  total = totalq+mid+final;
- cout<<endl;
 
  cout<<"Quiz total : "<<totalq<<endl;
  cout<<"Mid term   : "<<mid<<endl;

@@ -26,7 +26,7 @@ void main()
  totalq = (q1+q2+q3)/3;
  total = totalq+mid+final;
 
- cout<<"Quiz total : "<<totalq<<endl;
+ cout<<"Quizz total : "<<totalq<<endl;
  cout<<"Mid term   : "<<mid<<endl;
  cout<<"Final      : "<<final<<endl;
  cout<<"Total      : "<<total<<endl;
